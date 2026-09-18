@@ -1,1 +1,15 @@
-{"name":"nocturnal-seizure-alerts","version":"0.1.0","private":true,"type":"module","scripts":{"check":"tsc --noEmit","test":"npm run check"},"devDependencies":{"typescript":"5.9.2"}}
+{
+  "name": "nocturnal-seizure-alerts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "npm run check && node --experimental-transform-types --test 'src/**/*.test.ts'",
+    "replay": "node --experimental-transform-types src/replay.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.3",
+    "typescript": "5.9.2"
+  }
+}

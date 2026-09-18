@@ -1,1 +1,95 @@
-{"patientId":"child-06","silence":{"from":"2026-09-15T23:30:00+08:00","until":"2026-09-16T00:15:00+08:00","maximumSeverity":"ordinary"},"candidates":[{"candidateId":"turn-1","capturedAt":"2026-09-15T22:50:00+08:00","motionScore":0.35,"heartRateDelta":2},{"candidateId":"event-2a","capturedAt":"2026-09-15T23:54:00+08:00","motionScore":0.91,"heartRateDelta":28},{"candidateId":"event-2b","capturedAt":"2026-09-15T23:55:10+08:00","motionScore":0.88,"heartRateDelta":31}],"acknowledgements":[{"guardianId":"guardian-a","response":"observing"},{"guardianId":"guardian-b","response":"false-alarm"}]}
+{
+  "patientId": "child-06",
+  "silence": {
+    "patientId": "child-06",
+    "from": "2026-09-15T23:30:00+08:00",
+    "until": "2026-09-16T00:15:00+08:00",
+    "maximumSeverity": "ordinary"
+  },
+  "candidates": [
+    {
+      "candidateId": "turn-1",
+      "capturedAt": "2026-09-15T22:50:00+08:00",
+      "motionScore": 0.35,
+      "heartRateDelta": 2,
+      "worn": true,
+      "qualityFlags": []
+    },
+    {
+      "candidateId": "blip-motion",
+      "capturedAt": "2026-09-15T23:40:00+08:00",
+      "motionScore": 0.85,
+      "heartRateDelta": 5,
+      "worn": true,
+      "qualityFlags": []
+    },
+    {
+      "candidateId": "event-2a",
+      "capturedAt": "2026-09-15T23:54:00+08:00",
+      "motionScore": 0.91,
+      "heartRateDelta": 28,
+      "worn": true,
+      "qualityFlags": []
+    },
+    {
+      "candidateId": "event-2b",
+      "capturedAt": "2026-09-15T23:55:10+08:00",
+      "motionScore": 0.88,
+      "heartRateDelta": 31,
+      "worn": true,
+      "qualityFlags": []
+    },
+    {
+      "candidateId": "turn-3",
+      "capturedAt": "2026-09-16T00:05:00+08:00",
+      "motionScore": 0.4,
+      "heartRateDelta": 1,
+      "worn": true,
+      "qualityFlags": ["low-quality"]
+    },
+    {
+      "candidateId": "event-5a",
+      "capturedAt": "2026-09-16T00:08:00+08:00",
+      "motionScore": 0.9,
+      "heartRateDelta": 29,
+      "worn": true,
+      "qualityFlags": []
+    },
+    {
+      "candidateId": "event-5b",
+      "capturedAt": "2026-09-16T00:09:00+08:00",
+      "motionScore": 0.89,
+      "heartRateDelta": 30,
+      "worn": true,
+      "qualityFlags": []
+    },
+    {
+      "candidateId": "off-4",
+      "capturedAt": "2026-09-16T00:10:00+08:00",
+      "motionScore": 0,
+      "heartRateDelta": 0,
+      "worn": false,
+      "qualityFlags": ["device-off"]
+    }
+  ],
+  "acknowledgements": [
+    {
+      "acknowledgementId": "ack-a-1",
+      "guardianId": "guardian-a",
+      "response": "observing",
+      "receivedAt": "2026-09-15T23:54:30+08:00"
+    },
+    {
+      "acknowledgementId": "ack-b-1",
+      "guardianId": "guardian-b",
+      "response": "false-alarm",
+      "receivedAt": "2026-09-15T23:55:40+08:00"
+    },
+    {
+      "acknowledgementId": "ack-a-2",
+      "guardianId": "guardian-a",
+      "response": "needs-help",
+      "receivedAt": "2026-09-15T23:56:30+08:00"
+    }
+  ]
+}
