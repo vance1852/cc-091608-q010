@@ -10,3 +10,6 @@ coverage/
 __pycache__/
 *.py[cod]
 .DS_Store
+# 运行期状态（持久化的夜间告警状态文件）
+*.state.json
+data/
